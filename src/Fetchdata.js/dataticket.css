@@ -1,0 +1,137 @@
+
+/* css of the table of database ..... */
+
+.table{
+    /* margin-top: 50px; */
+	width: 80%;
+    border-collapse: collapse;
+    /* margin-top: 50px; */
+    float: right;
+    margin-right: 10px;
+}
+.table td,.table th{
+  padding:2px 0px;
+  border-bottom:1px solid #ddd;
+  text-align: center;
+  /* font-size:13px; */
+
+}
+.table td{
+	cursor: pointer;
+}
+.table tbody tr:nth-child(even){
+	background-color: #f5f5f5;
+}
+@media(max-width: 750px){
+	.table thead{
+		display: none;
+	}
+
+	.table, .table tbody, .table tr, .table td{
+		display: block;
+		width: 85%;
+	}
+	.table tr{
+		margin-bottom:15px;
+	}
+	.table td{
+		text-align: right;
+		padding-left: 50%;
+		text-align: right;
+		position: relative;
+		width: 100%;
+	}
+	.table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 100%;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    padding: 32px;
+}
+.cup{
+    height: 34vh;
+}
+.table2{
+    margin-left: -17px;
+}
+
+.table2 td,.table th{
+  padding:18px 19px;
+  border-bottom:1px solid #ddd;
+  text-align: center;
+  font-size:13px;
+
+}
+.table2 td{
+	cursor: pointer;
+}
+.table2 tbody tr:nth-child(even){
+	background-color: hwb(0 93% 4%);
+}
+@media(max-width: 750px){
+	.table2 thead{
+		display: none;
+	}
+
+	.table2, .table tbody, .table tr, .table td{
+		display: block;
+		width: 85%;
+	}
+	.table2 tr{
+		margin-bottom:15px;
+	}
+	.table2 td{
+		text-align: right;
+		/* padding-left: 50%; */
+		text-align: right;
+		position: relative;
+		width: 100%;
+	}
+	.table2 td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 100%;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+}
+
+
+
+.table2{
+
+    padding: 34px;
+  
+}
+
+
+
+@media(max-width: 750px){
+	.table2{
+		margin-left:-119px;
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+
+       padding: 74px;
+	}
+
+
+
+}
